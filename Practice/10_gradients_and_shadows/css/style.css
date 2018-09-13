@@ -1,0 +1,5 @@
+.linear {
+	width: 700px;
+	height: 250px;
+	background-image: linear-gradient(45deg, orange, purple);
+}
