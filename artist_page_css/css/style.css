@@ -1,0 +1,16 @@
+.headerText {
+	width: 370px;
+	text-align: left;
+	color: #26D2AC;
+	padding: 5px;
+	background: black; 
+}
+
+.sectionText{
+	width: 370px;
+	text-align: left;
+	color: white;
+	padding: 5px;
+	background: black;
+
+}
