@@ -29,6 +29,15 @@ h2 {
 	color: white;
 }
 
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 21px;
+	color: black;
+	text-transform: uppercase;
+}
+
+
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
@@ -112,43 +121,66 @@ p {
 }
 
 .rockets {
-	height: 950px;
+	height: 1050px;
 	background-color: white;
+	padding-left: 150px;
 	margin: 120px 0px 40px 0px;
 	text-align: left;
+	font-size: 0;
 }
 
-/*.rocketsText {
+ .rockets div {
 	display: inline-block;
-	position: relative;
+	vertical-align: top;		
 }
-*/
 
 .rocketsHeading {
 	color: black;
-	padding-top: 100px;
-	margin-left: 150px;
-	text-align: left;
-
-}
-.rocketsContent {
-	color: black;
-	width: 1100px;
-	margin: 20px 150px 100px;
+	padding-top: 120px;
 	text-align: left;
 }
 
-.rocketImg {
-	width: 1000px;
-	height: 350px;
-	margin-left: 150px;
-	background-image: url(../img/rockets.png);
+.falcon9 {
+	width: 400px;
+	height: 250px;
+	margin: 50px 0px;
+	background-image: url(../img/falcon_9.jpg);
 	background-size: cover;
 }
 
+.rocketsTextTwo {
+	padding: 0 60px;
+}
+
+.falconHeavy {
+	width: 400px;
+	height: 250px;
+	margin: 50px 0px;
+	background-image: url(../img/falcon_heavy.jpg);
+	background-size: cover;
+}
+
+.dragon {
+	width: 400px;
+	height: 250px;
+	margin: 50px 0px;
+	background-image: url(../img/dragon.jpg);
+	background-size: cover;
+}
+
+.rocketsTextThree {
+	padding: 0 60px;
+}
+
+.rocketsContent {
+	color: black;
+	width: 400px;	
+	text-align: left;
+	margin-top: 15px;
+}
+
 .colony {
-	margin: 20px auto;
-	padding-top: 50px;
+	padding-top: 70px;
 	text-align: center;
 }
 
