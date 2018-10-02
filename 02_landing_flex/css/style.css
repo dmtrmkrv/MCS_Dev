@@ -1,0 +1,252 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700,900&subset=cyrillic');
+
+body {
+	background-color: black;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #E55112; 
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 98px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 42px;
+	color: white;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 21px;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 21px;
+	line-height:  29px;
+	color: white;
+}
+
+
+
+.mainMenu {
+	width: 100%;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 11pt;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,.7);
+	position: fixed;
+}
+
+.missionLink {
+	margin-left: 30px;
+}
+
+.rocketLink {
+	margin-left: 30px;
+}
+
+.colonyLink {
+	margin-left: 30px;
+}
+
+.aboutLink {
+	margin-left: 30px;
+}
+
+
+
+.banner {
+	height: 900px;
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bannerHead {
+	padding-left: 50px;
+	padding-top: 460px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 98px;
+	color: white;
+}
+
+.bannerText {
+	padding-left: 60px;
+	padding-top: 10px;	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 21px;
+	color: white;
+}
+
+
+
+.mission {
+	padding-top: 120px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.missionText {
+	flex-basis: 1200px;
+	margin: 0 20px;
+}
+
+.missionContent {
+	margin: 20px;
+}
+
+.missionImg {
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/payload.jpg);
+	background-size: cover;
+}
+
+.rocketsHeading {
+	padding-top: 120px;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+.rockets {
+	padding: 0px 40px 100px;
+	background-color: white;
+	text-align: left;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+.rockets p {
+	color: black;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.rockets div {
+	flex-basis: 400px;
+}
+
+.flcn9 {
+	flex-grow: 1;
+	margin: 20px 20px;
+}
+
+.flcnHeavy {
+	flex-grow: 1;
+	margin: 20px 20px;
+}
+
+.dragon {
+	flex-grow: 1;
+	margin: 20px 20px;
+}
+
+.flcn9Img {
+	height: 300px;
+	margin: 50px 0px;
+	background-image: url(../img/falcon_9.jpg);
+	background-size: cover;
+	flex-grow: 0;
+}
+
+.flcnHeavyImg {
+	height: 300px;
+	margin: 50px 0px;
+	background-image: url(../img/falcon_heavy.jpg);
+	background-size: cover;
+}
+
+.dragonImg {
+	height: 300px;
+	margin: 50px 0px;
+	background-image: url(../img/dragon.jpg);
+	background-size: cover;
+}
+
+
+.colony {
+	height: 1000px;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.colonyText {
+	margin: 250px 40px 100px 60px;
+	flex-basis: 500px;
+	text-align: left;
+}
+
+.colonyContent {
+	margin: 20px auto;
+}
+
+.colonyImg {
+	flex-basis: 1000px;
+	background-image: url(../img/mars.jpg);
+	background-size: cover;
+}
+
+
+.aboutContent {
+	padding-top: 250px;
+	height: 400px;
+	margin: auto;
+	background-image: url(../img/about.png);
+	background-size: cover;
+	text-align: center;
+}
+
+.aboutText {
+	width: 1100px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+
+.footer {
+	text-align: center;
+	height: 60px;
+	background-color: white;
+}
+
+.footerText {
+	padding-top: 15px;
+	font-size: 12pt;
+	color: black;
+}
