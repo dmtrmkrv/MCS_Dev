@@ -320,16 +320,14 @@ p {
 	color: black;
 }
 
-/* 
 .footer {
 	text-align: center;
 	height: 60px;
-	background-color: white;
+	background-color: black;
 }
 
 .footerText {
-	padding-top: 15px;
+	padding-top: 20px;
 	font-size: 12pt;
-	color: black;
+	color: white;
 } 
-*/
