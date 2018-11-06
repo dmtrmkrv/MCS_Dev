@@ -1,0 +1,61 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 20px;
+	color: #929292;
+}
+
+p { 
+	font-family: 'Roboto+Slab', serif;
+	font-weight: 300;
+	font-size: 26px;
+	margin: 10px auto;
+	line-height: 35px;
+}
+
+.quotes {
+	width: 80vw;
+	margin: 30px auto;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.hemingway {
+	width: calc((100% - 40px)/3);
+}
+
+.hemingwayImage {
+	background-image: url(../img/hemingway.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%
+}
+
+.duke {
+	width: calc((100% - 40px)/3);
+}
+
+.dukeImage {
+	background-image: url(../img/duke.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%
+}
+
+.sagan {
+	width: calc((100% - 40px)/3);
+}
+
+.saganImage {
+	background-image: url(../img/sagan.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%
+}
