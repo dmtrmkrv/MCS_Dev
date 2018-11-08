@@ -22,39 +22,34 @@ p {
 .articles {
 	width: 80vw;
 	margin: 30px auto;
-	min-height: 500px;
-}
-
-.first .second .third .fourth {
-	width: 400px;
 }
 
 .firstImage {
 	background-image: url(../img/1.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 50%
+	padding-bottom: 60%
 }
 
 .secondImage {
 	background-image: url(../img/2.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 50%
+	padding-bottom: 60%
 }
 
 .thirdImage {
 	background-image: url(../img/3.png);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 50%
+	padding-bottom: 60%
 }
 
 .fourthImage {
 	background-image: url(../img/4.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 50%
+	padding-bottom: 60%
 }
 
 
@@ -64,7 +59,7 @@ p {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 700;
 		font-size: 18px;
-		margin-top: 20px;
+		margin-top: 10px;
 		line-height: 21px;
 	}
 
@@ -75,6 +70,22 @@ p {
 		margin-top: 10px;
 		margin-bottom: 30px;
 		line-height: 18px;
+	}
+
+	.firstImage {
+		padding-bottom: 35%
+	}
+
+	.secondImage {
+		padding-bottom: 35%
+	}
+
+	.thirdImage {
+		padding-bottom: 35%
+	}
+
+	.fourthImage {
+		padding-bottom: 35%
 	}
 }
 
@@ -96,6 +107,23 @@ p {
 		margin-bottom: 50px;
 		line-height: 24px;
 	}
+
+	.firstImage {
+		padding-bottom: 40%
+	}
+
+	.secondImage {
+		padding-bottom: 40%
+	}
+
+	.thirdImage {
+		padding-bottom: 40%
+	}
+
+	.fourthImage {
+		padding-bottom: 40%
+	}
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -125,8 +153,24 @@ p {
 		align-items: flex-start; 
 		flex-wrap: wrap;
 	}
+
+	.firstImage {
+		padding-bottom: 60%
+	}
+
+	.secondImage {
+		padding-bottom: 60%
+	}
+
+	.thirdImage {
+		padding-bottom: 60%
+	}
+
+	.fourthImage {
+		padding-bottom: 60%
+	}
 	
-	.first {
+	.first  {
 		width: calc((100% - 40px)/2);
 	}
 
