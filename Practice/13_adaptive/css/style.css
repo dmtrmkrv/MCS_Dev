@@ -1,0 +1,144 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	margin-top: 20px;
+	line-height: 27px;
+}
+
+p { 
+	font-family: 'Roboto+Slab', serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	line-height: 24px;
+}
+
+.articles {
+	width: 80vw;
+	margin: 30px auto;
+	min-height: 500px;
+}
+
+.first .second .third .fourth {
+	width: 400px;
+}
+
+.firstImage {
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 50%
+}
+
+.secondImage {
+	background-image: url(../img/2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 50%
+}
+
+.thirdImage {
+	background-image: url(../img/3.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 50%
+}
+
+.fourthImage {
+	background-image: url(../img/4.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 50%
+}
+
+
+@media screen and (min-width: 320px) {
+
+	h1 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		font-size: 18px;
+		margin-top: 20px;
+		line-height: 21px;
+	}
+
+	p { 
+		font-family: 'Roboto+Slab', serif;
+		font-weight: 300;
+		font-size: 15px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		line-height: 18px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	h1 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		font-size: 24px;
+		margin-top: 20px;
+		line-height: 27px;
+	}
+
+	p { 
+		font-family: 'Roboto+Slab', serif;
+		font-weight: 300;
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+	h1 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		font-size: 24px;
+		margin-top: 20px;
+		line-height: 27px;
+	}
+
+	p { 
+		font-family: 'Roboto+Slab', serif;
+		font-weight: 300;
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		line-height: 24px;
+	} 
+
+	.articles {
+		width: 80vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start; 
+		flex-wrap: wrap;
+	}
+	
+	.first {
+		width: calc((100% - 40px)/2);
+	}
+
+	.second {
+		width: calc((100% - 40px)/2);
+	}
+
+	.third {
+		width: calc((100% - 40px)/2);
+	}
+
+	.fourth {
+		width: calc((100% - 40px)/2);
+	}
+}
